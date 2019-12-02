@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="#CA2424"
+        android:text="WELCOME TO BRAIN AGE"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="270dp"
+        android:background="@android:color/holo_green_light"
+        android:text="START GAME" />
+
+    <Button
+        android:id="@+id/instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Instructions" />
+
+
+</LinearLayout>

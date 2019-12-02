@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/aya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Instructions"
+        android:textColor="#CA2424"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="15dp"
+        android:text="1.Try to finish the puzzle in the given time. " />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="15dp"
+        android:text="2. You can press the question button to answer a question and increase time by 15 seconds. " />
+
+    <TextView
+        android:id="@+id/xas"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="15dp"
+        android:text="3. The timer will stop when you're answering the question. " />
+
+    <TextView
+        android:id="@+id/xasxs"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/holo_purple"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="4. You can press Next question for another question. You can answer ONLY one question " />
+
+    <TextView
+        android:id="@+id/xasxxxs"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/holo_purple"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="5. Failure to answer question will not increase any time and you will continue from where you left. " />
+
+    <TextView
+        android:id="@+id/ssd"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="15dp"
+        android:text="6. If you finish the game in time, you can play a video of world war 2. " />
+
+
+    <TextView
+        android:id="@+id/ss23d"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="15dp"
+        android:text="7. Please enjoy and give us an A grade. Thank you! " />
+
+    <Button
+        android:id="@+id/backbut"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="Go Back" />
+</LinearLayout>

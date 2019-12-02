@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.davenotdavid.samplepuzzle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Youtube2" />
+        <activity android:name=".Pausegame" />
+        <activity android:name=".level2question" />
+        <activity android:name=".SelectLevel" />
+        <activity android:name=".level2" />
+        <activity android:name=".ques2" />
+        <activity android:name=".YoutubeAct" />
+        <activity android:name=".Instruction" />
+        <activity android:name=".homeActivity" />
+        <activity android:name=".question" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

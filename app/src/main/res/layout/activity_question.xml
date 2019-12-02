@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".question">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#CA2424"
+        android:text="Please Answer the Question"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="When did world war 2 start?" />
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="Answer" />
+
+    <Button
+        android:id="@+id/otherquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Next Question" />
+</LinearLayout>
